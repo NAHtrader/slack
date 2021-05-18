@@ -4,9 +4,9 @@ import datetime
 import requests
 import pandas as pd
 
-access = "PXzfPwlAvAtjagWnh6SmaZo3fLsmgcAoqzk1SWe4"
-secret = "6ZB9i9yjtBo0lGzsLT5tLt2SAxrmU7YCrbM0T1Wy"
-myToken = "xoxb-2077340465716-2064410587702-LYoqMJpxUXWNzfuXewRd39dw"
+access = "access key"
+secret = "secret key"
+myToken = "Token"
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
